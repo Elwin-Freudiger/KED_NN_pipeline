@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "valais-weather"
+version = "0.1.0"
+readme = "README.md"
+requires-python = ">=3.9,<3.13"
+
+dependencies = [
+  "numpy",
+  "pandas",
+  "scikit-learn",
+  "tensorflow",
+  "joblib",
+  "tqdm",
+  "pyarrow",
+  "gstools",
+  "keras-efficient-kan",
+]
+
+[project.scripts]
+valais-weather = "valais_weather.cli:main"
