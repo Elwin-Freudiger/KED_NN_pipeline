@@ -156,6 +156,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Roadmap
 
 - [ ] Add example notebooks demonstrating the pipeline
+- [ ] Add sample data
 - [ ] Implement additional neural network architectures (Transformers, CNNs)
 - [ ] Add support for real-time data ingestion
 - [ ] Create visualization tools for forecast results
